@@ -1,0 +1,63 @@
+.mapRoot {
+    position: relative;
+    margin-top: 32px;
+}
+.mapStyles:nth-child(1){
+    width: 100% !important;
+    height:80vh !important;
+}
+.mapStyles div:nth-child(1){
+    border-radius: 12px;
+}
+
+.heading p {
+    color: #2b2b2b;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+}
+
+.heading h4 {
+    font-size: 24px;
+    color: #000;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.card {
+    margin-top: 28px;
+}
+.content h5 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    margin: 0;
+}
+.content p {
+    color: #6a6a6a;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.content .icon {
+    width: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.image img {
+    height: 210px;
+}
+.content span {
+    margin-right: 12px;
+}
+.card .MuiContainer-root {
+    padding-left: 0 !important;
+}
+@media (max-width: 1280px){
+    .mapStyles:nth-child(1){
+        width: 90% !important;
+        height:100% !important;
+    }
+    .mapRoot {
+        height: 500px;
+    }
+}

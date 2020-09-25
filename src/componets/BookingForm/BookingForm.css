@@ -1,0 +1,45 @@
+.form-box {
+    width: 470px;
+    height: auto;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+@media (max-width: 1280px){
+    .form-box {
+        width: 90%;
+    }
+}
+
+.form-box form{
+ padding: 22px;
+}
+
+.form-box label{
+ display: block;
+ color: #818181;
+ font-size: 16px;
+}
+
+.form-box input{
+    display: block;
+    width: 100%;
+    padding: 15px 12px;
+    box-sizing: border-box;
+    margin: 15px 0;
+    border: 0;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    background: #f2f2f2;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.form-box input[type="date"] {
+    background: #f2f2f2 url('../../images/calender_icon.png');
+    background-repeat: no-repeat;
+    background-position: right 8% center;
+    background-size: 11%;
+    cursor: pointer;
+}

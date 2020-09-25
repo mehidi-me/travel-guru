@@ -1,0 +1,104 @@
+.form-signup {
+    width: 520px;
+    border: 1px solid #ababab;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+.form-signup form {
+    padding: 32px;
+}
+
+.form-signup h4 {
+ margin: 0 0 22px 0;
+ padding: 0;
+ font-size: 24px;
+}
+
+.form-signup .MuiInputBase-root {
+    width: 100%;
+}
+
+.form-signup .MuiFormControl-root {
+    display: block;
+    margin: 18px 0;
+}
+
+.form-signup label {
+    color: #000;
+    font-size: 16px;
+}
+.or {
+    width: 320px;
+    height: 1px;
+    background:#ababab;
+    margin: 28px auto;
+    position: relative;
+}
+.or:before {
+    content: 'Or';
+    position: absolute;
+    top: -10px;
+    left: 46%;
+    background: #fff;
+    padding: 0 5px;
+}
+
+.facebook,.google {
+    width: 330px;
+    margin: 10px auto;
+    border: 1px solid #ababab;
+    padding: 10px;
+    text-align: center;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.google {
+    background: url('../../images//google.png');
+    background-size: 9%;
+    background-position: left 2% center;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background: url('../../images/fb.png');
+    background-size: 9%;
+    background-position: left 2% center;
+    background-repeat: no-repeat;
+    
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color:rgb(249, 165, 26) !important;
+}
+.MuiInput-underline:after {
+    border-color:rgb(249, 165, 26) !important;
+}
+.error .MuiFormLabel-root.Mui-focused {
+    color:red !important;
+}
+.error .MuiInput-underline:after {
+    border-color:red !important;
+}
+.error .MuiInput-underline:before {
+    border-color:red !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: rgb(249, 165, 26) !important;
+}
+.MuiLinearProgress-barColorPrimary {
+    background-color: rgb(249, 165, 26) !important;
+}
+@media (max-width: 1280px){
+    .form-signup {
+        width: 90%;
+    }
+    .or {
+        width: 60%;
+    }
+    .google, .facebook {
+        width: 60%;
+        pad: 7px;
+    }
+}
